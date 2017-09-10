@@ -1,5 +1,19 @@
 # Web Study Course
 
+## 진행방식
+ * Part1 은 약 30분 내외, Part2 는 약 1시간 내외 소요 예상
+
+ * 스터디원은 한 학기에 1 - 2 개의 발제를 맡는다.
+
+ * 발제는 다음과 같이 준비한다.
+
+  * 모든 챕터의 정리는 Markdown 을 이용한다. Markdown 으로 정리된 파일은 발표 전에 이 repository 에 올린다. [Ybigta/WebStudy Github](https://github.com/YBIGTA/Design_web_study)
+
+   * 같이 돌려야 하는 코드는 d3.js 는 jsfiddle 이용하고, w3schools 은 튜토리얼 url 예제 가져와 사용 가능하다.
+
+* 아래의 날짜들은  변경될 수 있다. (민호's 특강이나 .. etc)
+
+
 ## Part 1. Frontend Basics
 
   #### Jquery : **[ w3schools ](https://www.w3schools.com/jquery/default.asp)** 목차
