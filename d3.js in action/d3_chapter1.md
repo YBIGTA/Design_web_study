@@ -141,7 +141,7 @@ d3.select("svg").style("background", "darkgray");
 
 
 
-#### <CIRCLE>, <RECT>, <LINE>, <POLYGON> SHAPE PRIMITIVES 
+#### CIRCLE, RECT, LINE, POLYGON : SHAPE PRIMITIVES 
 
 SVG 는 몇가지 편리한 shape들을 제공하는데 그 attribute 의 size 와 position 만 결정하면 손쉽게 그림을 그릴 수 있어요. 하나의 예시를 들어볼게요
 
@@ -157,13 +157,13 @@ fill 로 shape 의 면 색상을 결정할 수 있고 stroke, stroke-width, stro
 그럼 저 링크에 그려져 있는 네모의 면 색상을 lightgray 로  바꾸는 d3 함수를 써봅시다!
 
 
-#### <text>
+#### text
 
 svg 에서는 shape 뿐만이 아니라 text 를 쓸 수도 있어요. 보통 도형의 label 로 사용합니다. 문단 형식 같은 걸 지정하고 싶다면 text 요소 안에 tspan 요소를 넣어서 지정할 수 있습니다.
 https://www.w3schools.com/graphics/svg_text.asp
 
 
-#### <g> GROUPING ELEMENT
+#### g : GROUPING ELEMENT
 
 GROUP 은 다른 element 들이랑 좀 달라요. illustrator 에서 사람의 얼굴의 눈코입을 ctrl + g 를 통해서 한 번에 묶는 것 처럼 svg 에서의 group 도 논리적으로 여러 element 들을 묶는 역할을 합니다. 
 
