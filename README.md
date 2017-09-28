@@ -20,7 +20,7 @@
 
      week 1 (09/16) : JQuery Tutorials
      week 2 (09/23) : JQuery Effects
-     week 3 (10/14) : JQuery HTML
+     week 3 (09/30) : JQuery HTML
      week 4 (10/28) : JQuery Traversing
 
   #### Bootstrap : **[ w3schools ](https://www.w3schools.com/bootstrap/default.asp)** 목차
@@ -35,7 +35,7 @@
 
      week 1 (09/16) : 1 An introduction to D3.js
      week 2 (09/23) : 2 Information visualization data flow
-     week 3 (10/14) : 3 Data-driven design and interaction
+     week 3 (09/30) : 3 Data-driven design and interaction 
      week 4 (10/28) : 4 Chart conponents
      week 6 (11/18) : 5 Layouts
      week 7 (11/25) : 6 Hierarchical Visualization
