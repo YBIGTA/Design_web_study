@@ -31,27 +31,27 @@ DOM을 다루는 간단한 메소드들
 **문법&예시**
 1. text(): 
 * text content 반환: $(selector).text()
---parameter: 
+* parameter: 
 * content: 필수. 선택한 인자의 새로운 텍스트 내용을 지정.
 
 2. html():
 * 내용 반환: $(selector).html()
---parameter:
+* parameter:
 * content: 필수. 선택한 인자들에 대한 새로운 content 지정. HTML tag 포함 가능.
---예시: [text(), html() 예시] (https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_html_get)
+* 예시: [text(), html() 예시] (https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_html_get)
 
 
 3. val():
 * 속성 값 (value attribute)을 반환: $(selector).val()
---parameter:
+* parameter:
 value: 필수. 속성값의 값 (value of the value attribute)을 지정 
---예시: [val() 예시] (https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_val_get)
+* 예시: [val() 예시] (https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_val_get)
 
 4. attr():
 * 속성의 값(the value of an attribute)을 반환: $(selector).attr(attribute)
---parameter:
+* parameter:
 attribute: attribute의 이름 지정.
---예시: [attr() 예시] (https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_attr_get)
+* 예시: [attr() 예시] (https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_attr_get)
 
 
 
