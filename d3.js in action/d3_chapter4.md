@@ -659,7 +659,7 @@ function lineChart(data) {
 
 
 
-##4.5 Complex accessor functions
+## 4.5 Complex accessor functions
 
 여태까지 그린 차트는 모두 점에 기반한 차트 (스캐터 플랏, 박스 플랏, 라인 차트)
 
@@ -849,7 +849,7 @@ function lineChart(data) {
 
 
 
-###4.6 Using 3rd party d3 modules to create legends
+### 4.6 Using 3rd party d3 modules to create legends
 
 D3에는 범례를 그릴 수 있는 방법이 아무것도 없음 ㅎㄷㄷ
 
@@ -886,8 +886,7 @@ d3.select("svg")
 
 
 
-
-<u>다음 발제자를 위한 사소하고 작디 작은 팁</u>
+###### 다음 발제자를 위한 사소하고 작디 작은 팁
 
 - 양이 생각보다 적으면서도 많으니 일주일 잡고 하루에 한 단원씩 조금씩 준비하는 걸 추천합니다<br>
   코드랑 그림이 많아서 생각보다 적은데 벽에 부딪히는 시간이 길어서 생각보다 많아요<br>
