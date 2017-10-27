@@ -203,6 +203,7 @@ CSS를 건드려서 꾸밀 수도, D3 Component로 꾸밀수도 있음!
 박스플랏으로 좀 더 복잡한 그래픽 객체를 공부할 예정!
 
 박스플랏은 분포를 가진 데이터를 표현할 때 효과적
+
 ![04_09](https://raw.githubusercontent.com/YBIGTA/Design_web_study/master/d3.js%20in%20action/chapter4_figure/04_09.png)
 
 *Figure 4.9 A box from a boxplot consists of five pieces of information encoded in a single shape: (1) the maximum value, (2) the high value of some distribution, such as the third quartile, (3) the median or mean value, (4) the corresponding low value of the distribution, such as the first quartile, and (5) the minimum value.*
@@ -888,18 +889,18 @@ d3.select("svg")
 
 <u>다음 발제자를 위한 사소하고 작디 작은 팁</u>
 
-- 양이 생각보다 적으면서도 많으니 일주일 잡고 하루에 한 단원씩 조금씩 준비하는 걸 추천합니다
-  코드랑 그림이 많아서 생각보다 적은데 벽에 부딪히는 시간이 길어서 생각보다 많아요
+- 양이 생각보다 적으면서도 많으니 일주일 잡고 하루에 한 단원씩 조금씩 준비하는 걸 추천합니다<br>
+  코드랑 그림이 많아서 생각보다 적은데 벽에 부딪히는 시간이 길어서 생각보다 많아요<br>
   저도 일주일 동안 했는데 시험과 과제 다섯 개, 다섯 번의 조모임을 끼고 완성시켰으니 가능할 거라 믿어요
-- JSFiddle에서 d3를 external resources에서 추가한 후 진행해야합니다
-  https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.2/d3.min.js
+- JSFiddle에서 d3를 external resources에서 추가한 후 진행해야합니다<br>
+  https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.2/d3.min.js<br>
   https://cdnjs.com/ 여기서 찾고 싶은 모듈이나 라이브러리를 찾을 수 있어요
-- 코드 작성 시 책 홈페이지에 가면 코드를 쉽게 복사 할 수 있습니다
+- 코드 작성 시 책 홈페이지에 가면 코드를 쉽게 복사 할 수 있습니다<br>
   https://livebook.manning.com/#!/book/d3js-in-action-second-edition
-- 데이터를 불러올 때 책이 제공하는 깃헙 주소에서 데이터를 불러오면 편합니다
+- 데이터를 불러올 때 책이 제공하는 깃헙 주소에서 데이터를 불러오면 편합니다<br>
   https://github.com/emeeks/d3_in_action_2
-- 코드가 일부만 있고 일부를 지우고 그 코드를 넣어야 하는 경우도 있고
+- 코드가 일부만 있고 일부를 지우고 그 코드를 넣어야 하는 경우도 있고<br>
   그대로 돌렸는데 결과가 다를 때도 있습니다. 이럴 때에도 깃헙 참고하면 편합니다
-- 화이팅! 저의 당부를 기억해주시고 꼭 완성해와주세요 ㅎ,ㅎ
-  보통 앞의 사람이 겪은 문제를 공통으로 겪는 거 같으니 어려운 점을 공유하면 좋을 것 같습니다
+- 화이팅! 저의 당부를 기억해주시고 꼭 완성해와주세요 ㅎ,ㅎ<br>
+  보통 앞의 사람이 겪은 문제를 공통으로 겪는 거 같으니 어려운 점을 공유하면 좋을 것 같습니다<br>
 - 2단원이랑 3단원 설명 좀 올려주세요 ㅠㅠ 앞부분을 참고해야 하는 경우도 점점 잦아집니다... 주륵..
