@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    </head>
+    <body>
+        <svg width="960" height="600"></svg>
+        <script>
+            d3.select("svg")
+              .selectAll("rect")
+              .data([15, 50, 22, 8, 100, 10])
+              .enter()
+              .append("rect")
+              .attr("width", 10)
+              .attr("height", d => d)
+              .style("opacity",.25)
+              .attr("x",(d,i) => i*10);
+        </script>
+    </body>
+</html>

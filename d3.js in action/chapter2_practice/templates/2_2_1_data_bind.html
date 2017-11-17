@@ -1,0 +1,23 @@
+<html><head>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+    </head>
+    <body>
+        <script>
+            d3.csv("../data/cities.csv",(error, data) => {
+                if(error){
+                    console.error(error);
+                }else{
+                    dataViz(data);
+                }
+            });
+            function dataViz(incomingData) {
+                d3.select("body").selectAll("div.cities")
+                  .data(incomingData)
+                  .enter()
+                  .append("div")
+                  .attr("class", "cities")
+                  .html(d => d.label);
+            }
+        </script>
+    </body>
+</html>

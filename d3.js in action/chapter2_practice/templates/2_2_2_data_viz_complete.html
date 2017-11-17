@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    </head>
+    <body>
+        <svg width="960" height="600"></svg>
+        <script>
+            d3.select("svg")
+              .selectAll("rect")
+              .data([15, 50, 22, 8, 100, 10])
+              .enter()
+              .append("rect")
+              .attr("width", 10)
+              .attr("height", d => d)
+              .style("fill","rgb(247, 202, 201)")
+              .style("stroke","#9A8B7A")
+              .style("stroke-width", "1px")
+              .attr("x",(d,i) => i*10)
+              .attr("y", d=> 100 - d);
+        </script>
+    </body>
+</html>

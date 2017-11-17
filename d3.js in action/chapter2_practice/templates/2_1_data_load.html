@@ -1,0 +1,19 @@
+<html><head>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+    </head>
+    <body>
+        <script>
+            var tweetData;
+            var nestedTweets;
+            d3.csv("../data/cities.csv",(error, data) => {console.log(error, data)});
+            d3.json("../data/tweets.json",data => {console.log(data)});
+            
+            d3.json("../data/tweets.json",data=> {
+            tweetData = data.tweets;
+            nestedTweets = d3.nest()
+                            .key(d => d.user)
+                            .entries(tweetData);
+        });
+        </script>
+    </body>
+</html>

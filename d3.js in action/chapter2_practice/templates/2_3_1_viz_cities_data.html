@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    </head>
+    <body>
+        <h1>the Population of Major Cities</h1>
+        <svg width="960" height="600"></svg>
+        <script>
+            d3.csv("../data/cities.csv",(error, data) => {dataViz(data)});
+            
+            function dataViz(incomingData){
+                var maxPopulation = d3.max(incomingData, d=> parseInt(d.population));
+                var yScale = d3.scaleLinear().domain([0,maxPopulation]).range([0, 460]);
+                d3.select("svg")
+                  .attr("style","height: 480px; width: 600px;")
+                  .selectAll("rect")
+                  .data(incomingData)
+                  .enter()
+                  .append("rect")
+                  .attr("width", 50)
+                  .attr("height", d => yScale(parseInt(d.population)))
+                  .attr("x", (d,i) => i*60)
+                  .attr("y", d => 480 - yScale(parseInt(d.population)))
+                  .style("fill", "rgb(247, 202, 201)")
+                  .style("stroke", "#9A8B7A")
+                  .style("stroke-width", "1px")
+                
+            }
+        </script>
+    </body>
+</html>

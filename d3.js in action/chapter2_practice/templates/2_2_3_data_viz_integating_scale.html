@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    </head>
+    <body>
+        <svg width="960" height="600"></svg>
+        <script>
+            var yScale = d3.scaleLinear().domain([0, 24500]).range([0,100]);
+            d3.select("svg")
+                .selectAll("rect")
+                .data([14, 68, 24500, 430, 19, 1000, 5555])
+                .enter()
+                .append("rect")
+                .attr("width", 10)
+                .attr("height", d => d)
+                .style("fill","rgb(247, 202, 201)")
+                .style("stroke","#9A8B7A")
+                .style("stroke-width", "1px")
+                .attr("height", d => yScale(d)) // yScale function
+                .attr("x",(d,i) => i*10)
+                .attr("y", d => 100 - yScale(d));
+                
+        </script>
+    </body>
+</html>
